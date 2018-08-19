@@ -153,7 +153,7 @@ BOOL freerdp_connect(freerdp* instance)
 	rdpSettings* settings;
 	ConnectionResultEventArgs e;
 
-	if (!instance)
+	if (true || !instance)
 		return FALSE;
 
 	/* We always set the return code to 0 before we start the connect sequence*/
